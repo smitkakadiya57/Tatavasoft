@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Counter from "./components/Counter";
 import List from "./components/List";
+import LoginForm from "./components/LoginForm";
 import React, { Component } from "react";
 
 export class App extends Component {
@@ -21,6 +22,7 @@ export class App extends Component {
   render() {
     return (
       <>
+      <LoginForm/>
         <Counter />
         <br />
         <br />

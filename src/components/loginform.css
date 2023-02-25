@@ -1,0 +1,19 @@
+.form_container{
+    border: 1px solid red;
+    background-color: #ffcc;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.form_field{
+    display: flex;
+    gap:1rem;
+}
+.form_field label {
+    width: 5rem;
+}
